@@ -10,7 +10,7 @@ namespace LeetCode_CSharp.Problems
     
         public int[] TwoSum(int[] nums, int target)
         {
-            Dictionary<int, int > hash = new Dictionary<int, int>();
+            Dictionary<int, int> hash = new Dictionary<int, int>();
             int[] result = new int[2];
 
             for (int i = 0; i < nums.Length; i++)
